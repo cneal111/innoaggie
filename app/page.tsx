@@ -12,7 +12,7 @@ export default function Home() {
       {/* Hero Section */}
       <ParallaxHero
         title="Small Greens."
-        highlightedTitle="Big Impact."
+        highlightedTitle="Bigger Impact."
         description="Our premium broccoli microgreen supplements deliver concentrated nutrition for optimal health and wellness."
         primaryButtonText="Learn More"
         primaryButtonLink="/process"
@@ -64,10 +64,10 @@ export default function Home() {
         <div className="container px-4 md:px-6">
           <div className="grid gap-8 md:grid-cols-2 md:gap-12">
             <AnimatedSection className="flex items-center justify-center" parallax parallaxSpeed={0.1}>
-              <div className="relative h-[300px] w-full overflow-hidden rounded-lg md:h-[400px]">
+              <div className="relative h-full w-full overflow-hidden rounded-lg md:h-full">
                 <img
                   // src="/placeholder.svg?height=800&width=800"
-                  src="/broccoli.mp4"
+                  src="/product_bottle.png?height=800&width=800"
                   // alt="Our growing process"
                   className="h-full w-full object-cover"
                 />

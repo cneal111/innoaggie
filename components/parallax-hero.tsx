@@ -87,7 +87,7 @@ export default function ParallaxHero({
     <div ref={ref} className="relative flex min-h-[90vh] items-center justify-center overflow-hidden bg-green-50">
       <motion.div className="absolute inset-0 z-0" style={{ y, opacity, scale }}>
         <div className="relative h-full w-full">
-          <Image src={imageSrc || "/placeholder.svg"} alt={imageAlt} fill className="object-cover" priority />
+          <Image src={imageSrc || "/green_interact-2.mp4"} alt={imageAlt} fill className="object-cover" priority />
           <div className="absolute inset-0 bg-green-900/20" />
         </div>
       </motion.div>
@@ -96,13 +96,13 @@ export default function ParallaxHero({
         <div className="grid gap-8 md:grid-cols-2 md:gap-12">
           <div className="flex flex-col justify-center">
             <motion.h1
-              className="text-4xl font-bold tracking-tight text-green-800 md:text-5xl lg:text-6xl"
+              className="text-4xl font-bold tracking-tight text-green-500 md:text-5xl lg:text-6xl"
               initial="hidden"
               animate="visible"
               variants={titleVariants}
             >
               {title} <br />
-              <span className="text-green-700">{highlightedTitle}</span>
+              <span className="text-green-800">{highlightedTitle}</span>
             </motion.h1>
 
             <motion.p
@@ -155,7 +155,7 @@ export default function ParallaxHero({
             >
               <Image
                 // src="/placeholder.svg?height=800&width=800"
-                src="/broccoli.mp4"
+                src="/inno_logo.png"
                 alt="Broccoli microgreen supplement"
                 fill
                 className="object-cover"

@@ -26,12 +26,12 @@ export default function MissionPage() {
           <div className="grid gap-8 md:grid-cols-2 md:gap-12">
             <AnimatedSection className="flex items-center justify-center" parallax parallaxSpeed={0.1}>
               <div className="relative h-[300px] w-full overflow-hidden rounded-lg md:h-[400px]">
-                <Image src="/placeholder.svg?height=800&width=800" alt="Our mission" fill className="object-cover" />
+                <Image src="/greens_img1.png?height=1200&width=800" alt="Our mission" fill className="object-cover" />
               </div>
             </AnimatedSection>
 
             <AnimatedSection className="flex flex-col justify-center" direction="right">
-              <h2 className="text-3xl font-bold tracking-tight text-green-800 md:text-4xl">Small Greens, Big Vision</h2>
+              <h2 className="text-3xl font-bold tracking-tight text-green-800 md:text-4xl">Small Greens, Bigger Vision</h2>
               <p className="mt-4 text-gray-600">
                 At Innovative Agriculture, we believe that nature provides the most powerful tools for health and wellness. Our
                 journey began with a simple observation: broccoli microgreens contain extraordinary levels of beneficial
@@ -103,7 +103,7 @@ export default function MissionPage() {
             <p className="mt-4 text-gray-600">Meet the passionate experts behind Innovative Agriculture.</p>
           </AnimatedSection>
 
-          <div className="mt-12 grid gap-8 md:grid-cols-3">
+          <div className="mt-12 grid gap-8 md:grid-cols-5">
             <AnimatedSection delay={0.1}>
               <div className="text-center">
                 <div className="mx-auto h-32 w-32 overflow-hidden rounded-full">
@@ -116,7 +116,7 @@ export default function MissionPage() {
                   />
                 </div>
                 <h3 className="mt-4 text-xl font-bold text-green-700">Idrees Ahmad</h3>
-                <p className="text-gray-600">President</p>
+                {/* <p className="text-gray-600">President</p> */}
               </div>
             </AnimatedSection>
 
@@ -132,7 +132,7 @@ export default function MissionPage() {
                   />
                 </div>
                 <h3 className="mt-4 text-xl font-bold text-green-700">Stephen Brady</h3>
-                <p className="text-gray-600">Vice President</p>
+                {/* <p className="text-gray-600">Vice President</p> */}
               </div>
             </AnimatedSection>
 
@@ -148,12 +148,43 @@ export default function MissionPage() {
                   />
                 </div>
                 <h3 className="mt-4 text-xl font-bold text-green-700">Cesar Bernal</h3>
-                <p className="text-gray-600">Wealth Investor Who Funds Us</p>
+                {/* <p className="text-gray-600">Secratary</p> */}
+              </div>
+            </AnimatedSection>
+                        <AnimatedSection delay={0.3}>
+              <div className="text-center">
+                <div className="mx-auto h-32 w-32 overflow-hidden rounded-full">
+                  <Image
+                    src="/placeholder.svg?height=128&width=128"
+                    alt="Team member"
+                    width={128}
+                    height={128}
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+                <h3 className="mt-4 text-xl font-bold text-green-700">Arturo Roman</h3>
+                {/* <p className="text-gray-600">Secratary</p> */}
+              </div>
+            </AnimatedSection>
+                        <AnimatedSection delay={0.3}>
+              <div className="text-center">
+                <div className="mx-auto h-32 w-32 overflow-hidden rounded-full">
+                  <Image
+                    src="/cn-headshot.png?height=128&width=128"
+                    alt="Team member"
+                    width={128}
+                    height={128}
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+                <h3 className="mt-4 text-xl font-bold text-green-700">Cody Neal</h3>
+                {/* <p className="text-gray-600">Treasuror</p> */}
               </div>
             </AnimatedSection>
           </div>
         </div>
       </section>
+      
 
       {/* Testimonials */}
       <section className="bg-green-50 py-12 md:py-24">
