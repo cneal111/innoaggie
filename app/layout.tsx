@@ -10,7 +10,7 @@ import ScrollIndicator from "@/components/scroll-indicator"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Innovative Agriculture | Small Greens. Big Impact.",
+  title: "Innovative Agriculture | Small Greens. Bigger Impact.",
   description: "Premium broccoli microgreen supplements for optimal health and wellness.",
     generator: 'v0.dev'
 }

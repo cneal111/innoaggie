@@ -14,7 +14,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold">Quick Links</h3>
+            <h3 className="text-sm font-semibold text-green-700">Quick Links</h3>
             <ul className="mt-2 space-y-2 text-sm">
               <li>
                 <Link href="/" className="text-gray-600 hover:text-green-700">
@@ -40,9 +40,9 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold">Connect</h3>
+            <h3 className="text-sm font-semibold text-green-700">Connect</h3>
             <div className="mt-2 flex space-x-4">
-              <Link href="#" className="text-gray-600 hover:text-green-700">
+              <Link href="https://www.instagram.com/inniaggie/" className="text-gray-600 hover:text-green-700">
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
               </Link>

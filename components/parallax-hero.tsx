@@ -106,7 +106,7 @@ export default function ParallaxHero({
             </motion.h1>
 
             <motion.p
-              className="mt-4 max-w-md text-lg text-gray-600"
+              className="mt-4 max-w-md text-lg text-white"
               initial="hidden"
               animate="visible"
               variants={descriptionVariants}

@@ -57,7 +57,7 @@ export default function StickyHeader() {
           </motion.span>
         </Link>
 
-        <nav className="hidden md:flex md:items-center md:gap-6 z-10">
+        <nav className="hidden md:flex md:items-center md:gap-6 z-10 text-gray-600">
           {routes.map((route) => (
             <Link
               key={route.href}

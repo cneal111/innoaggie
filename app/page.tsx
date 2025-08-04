@@ -82,20 +82,20 @@ export default function Home() {
               </p>
               <ul className="mt-6 space-y-2">
                 <li className="flex items-start">
-                  <span className="mr-2 rounded-full bg-green-700 p-1 text-white">1</span>
-                  <span>Premium seed selection</span>
+                  <span className="mr-3 rounded-full bg-green-700 p-1 text-white">1</span>
+                  <span className="text-gray-600">Premium seed selection</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="mr-2 rounded-full bg-green-700 p-1 text-white">2</span>
-                  <span>Controlled organic growing environment</span>
+                  <span className="mr-3 rounded-full bg-green-700 p-1 text-white">2</span>
+                  <span className="text-gray-600">Controlled organic growing environment</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="mr-2 rounded-full bg-green-700 p-1 text-white">3</span>
-                  <span>Harvested at peak nutrient density</span>
+                  <span className="mr-3 rounded-full bg-green-700 p-1 text-white">3</span>
+                  <span className="text-gray-600">Harvested at peak nutrient density</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="mr-2 rounded-full bg-green-700 p-1 text-white">4</span>
-                  <span>Gentle processing to preserve nutrients</span>
+                  <span className="mr-3 rounded-full bg-green-700 p-1 text-white">4</span>
+                  <span className="text-gray-600">Gentle processing to preserve nutrients</span>
                 </li>
               </ul>
               <div className="mt-8">

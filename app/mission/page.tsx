@@ -190,11 +190,26 @@ export default function MissionPage() {
       <section className="bg-green-50 py-12 md:py-24">
         <div className="container px-4 md:px-6">
           <AnimatedSection className="mx-auto max-w-3xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-green-800 md:text-4xl">What Experts Say</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-green-800 md:text-4xl">We Want To Hear From You</h2>
           </AnimatedSection>
 
+
+          <div className="mt-12 text-center">
+              <AnimatedSection direction="none">
+                <blockquote className="rounded-lg bg-white p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
+                  <p className="text-gray-600 italic">
+                    Let us hear from you! We value your feedback and insights on our products and mission. Your thoughts help us improve and innovate.
+                  </p>
+                  {/* <footer className="mt-4">
+                    <p className="font-bold text-green-700">Dr. Emily Richards</p>
+                    <p className="text-sm text-gray-500">Professor of Nutritional Sciences</p>
+                  </footer> */}
+                </blockquote>
+              </AnimatedSection>
+          </div>
+
           <div className="mt-12 grid gap-8 md:grid-cols-2">
-            <AnimatedSection direction="left">
+            {/* <AnimatedSection direction="left">
               <blockquote className="rounded-lg bg-white p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
                 <p className="text-gray-600 italic">
                   "The concentration of bioactive compounds in these broccoli microgreen supplements is impressive. This
@@ -218,7 +233,7 @@ export default function MissionPage() {
                   <p className="text-sm text-gray-500">Research Director, Plant Nutrition Institute</p>
                 </footer>
               </blockquote>
-            </AnimatedSection>
+            </AnimatedSection> */}
           </div>
         </div>
       </section>
