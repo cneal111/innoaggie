@@ -1,0 +1,8 @@
+services:
+  innoaggie:
+    image: innoaggie:latest
+    build: . 
+    container_name: innoaggie
+    ports:
+      - "3000:3000"
+    restart: unless-stopped

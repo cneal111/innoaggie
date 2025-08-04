@@ -43,10 +43,7 @@ export default function ShopPage() {
                   <h2 className="text-2xl font-bold text-green-800">What to Expect</h2>
                   <p className="mt-2 text-gray-600">Our initial product line will include:</p>
                   <ul className="mt-4 list-inside list-disc space-y-2 text-gray-600">
-                    <li>Broccoli Microgreen Powder</li>
                     <li>Broccoli Microgreen Capsules</li>
-                    <li>Broccoli Microgreen Tincture</li>
-                    <li>Subscription Options</li>
                   </ul>
                 </div>
               </AnimatedSection>
