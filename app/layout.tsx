@@ -12,7 +12,10 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Innovative Agriculture | Small Greens. Bigger Impact.",
   description: "Premium broccoli microgreen supplements for optimal health and wellness.",
-    generator: 'v0.dev'
+    generator: 'v0.dev',
+    icons: {
+      icon: '/favicon.jpg',
+    },
 }
 
 export default function RootLayout({
