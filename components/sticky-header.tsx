@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
 import Link from "next/link"
 import { Menu, X } from "lucide-react"
@@ -17,7 +17,6 @@ const routes = [
 
 export default function StickyHeader() {
   const [isOpen, setIsOpen] = useState(false)
-  const [scrolled, setScrolled] = useState(false)
   const pathname = usePathname()
 
   const { scrollY } = useScroll()
@@ -25,16 +24,6 @@ export default function StickyHeader() {
   // Transform header opacity and backdrop blur based on scroll
   const headerOpacity = useTransform(scrollY, [0, 50], [0, 1])
   const headerBlur = useTransform(scrollY, [0, 50], [0, 8])
-
-  // Check if scrolled for mobile
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 20)
-    }
-
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
 
   return (
     <motion.header
@@ -103,47 +92,47 @@ export default function StickyHeader() {
 
       {/* Mobile menu */}
       <motion.div
-        className={cn("container md:hidden overflow-hidden")}
+        className={cn(
+          "fixed inset-0 z-40 md:hidden overflow-hidden transition-all",
+          isOpen ? "pointer-events-auto" : "pointer-events-none"
+        )}
+        style={{
+          background: isOpen ? "rgba(0,0,0,0.97)" : "transparent",
+        }}
         initial={{ height: 0 }}
-        animate={{ height: isOpen ? "auto" : 0 }}
+        animate={{ height: isOpen ? "100vh" : 0 }}
         transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
       >
         <motion.nav
-          className="flex flex-col space-y-4 pb-4 pt-2 bg-white/95"
+          className="flex flex-col space-y-4 pb-4 pt-2"
           initial={{ opacity: 0 }}
           animate={{ opacity: isOpen ? 1 : 0 }}
           transition={{ duration: 0.2 }}
         >
-          {routes.map((route, index) => (
-            <motion.div
-              key={route.href}
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: isOpen ? 1 : 0, x: isOpen ? 0 : -20 }}
-              transition={{ delay: isOpen ? index * 0.1 : 0 }}
-            >
-              <Link
-                href={route.href}
-                className={cn(
-                  "text-sm font-medium transition-colors block",
-                  pathname === route.href ? "text-green-700" : "hover:text-green-700",
-                )}
-                onClick={() => setIsOpen(false)}
-              >
-                {route.label}
-              </Link>
-            </motion.div>
+          {routes.map((route) => (
+        <Link
+          key={route.href}
+          href={route.href}
+          className={cn(
+            "text-lg font-medium transition-colors relative text-white",
+            pathname === route.href ? "text-green-400" : "hover:text-green-400"
+          )}
+          onClick={() => setIsOpen(false)}
+        >
+          {route.label}
+        </Link>
           ))}
           <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: isOpen ? 1 : 0, x: isOpen ? 0 : -20 }}
-            transition={{ delay: isOpen ? routes.length * 0.1 : 0 }}
+        initial={{ opacity: 0, x: -20 }}
+        animate={{ opacity: isOpen ? 1 : 0, x: isOpen ? 0 : -20 }}
+        transition={{ delay: isOpen ? routes.length * 0.1 : 0 }}
           >
-            <motion.button
-              className="bg-green-700 hover:bg-green-800 w-full text-white px-4 py-2 rounded"
-              type="button"
-            >
-              Get Updates
-            </motion.button>
+        <motion.button
+          className="bg-green-700 hover:bg-green-800 w-full text-white px-4 py-2 rounded"
+          type="button"
+        >
+          Get Updates
+        </motion.button>
           </motion.div>
         </motion.nav>
       </motion.div>
