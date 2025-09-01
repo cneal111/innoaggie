@@ -28,7 +28,7 @@ export default function ProcessPage() {
                 iconName="leaf"
                 title="Premium Seed Selection"
                 description="We start with carefully selected, non-GMO broccoli seeds known for their high nutrient content and sulforaphane potential. Each batch is tested for purity and germination rate."
-                imageSrc="/placeholder.svg?height=500&width=500"
+                imageSrc=""
                 imageAlt="Premium seed selection"
                 index={0}
               />
@@ -37,7 +37,7 @@ export default function ProcessPage() {
                 iconName="droplets"
                 title="Controlled Growing Environment"
                 description="Our microgreens are grown in a controlled indoor environment with precise temperature, humidity, and light conditions. We use purified water and organic growing medium to ensure the highest quality."
-                imageSrc="/placeholder.svg?height=500&width=500"
+                imageSrc=""
                 imageAlt="Controlled growing environment"
                 index={1}
                 reverse
@@ -47,7 +47,7 @@ export default function ProcessPage() {
                 iconName="sun"
                 title="Peak Harvest Timing"
                 description="We harvest our broccoli microgreens at precisely the right moment when their nutrient content and bioactive compounds are at their highest levels, typically 7-10 days after germination."
-                imageSrc="/placeholder.svg?height=500&width=500"
+                imageSrc=""
                 imageAlt="Peak harvest timing"
                 index={2}
               />
@@ -56,7 +56,7 @@ export default function ProcessPage() {
                 iconName="flask"
                 title="Gentle Processing"
                 description="We use a proprietary low-temperature drying process that preserves the delicate bioactive compounds. This ensures maximum retention of nutrients and health benefits in the final product."
-                imageSrc="/placeholder.svg?height=500&width=500"
+                imageSrc=""
                 imageAlt="Gentle processing"
                 index={3}
                 reverse
@@ -66,7 +66,7 @@ export default function ProcessPage() {
                 iconName="package"
                 title="Packaging & Quality Control"
                 description="Each batch is tested for purity and potency before being packaged in eco-friendly, light-resistant containers that preserve freshness. We maintain strict quality control standards throughout the entire process."
-                imageSrc="/placeholder.svg?height=500&width=500"
+                imageSrc=""
                 imageAlt="Packaging and quality control"
                 index={4}
               />

@@ -96,7 +96,7 @@ export default function MissionPage() {
       </section>
 
       {/* Team Section */}
-      <section className="bg-white py-12 md:py-24">
+      {/* <section className="bg-white py-12 md:py-24">
         <div className="container px-4 md:px-6">
           <AnimatedSection className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-green-800 md:text-4xl">Our Team</h2>
@@ -116,7 +116,7 @@ export default function MissionPage() {
                   />
                 </div>
                 <h3 className="mt-4 text-xl font-bold text-green-700">Idrees Ahmad</h3>
-                {/* <p className="text-gray-600">President</p> */}
+                <p className="text-gray-600">President</p>
               </div>
             </AnimatedSection>
 
@@ -131,8 +131,8 @@ export default function MissionPage() {
                     className="h-full w-full object-cover"
                   />
                 </div>
-                <h3 className="mt-4 text-xl font-bold text-green-700">Stephen Brady</h3>
-                {/* <p className="text-gray-600">Vice President</p> */}
+                <h3 className="mt-4 text-xl font-bold text-green-700">Stephen Bady</h3>
+                <p className="text-gray-600">Vice President</p>
               </div>
             </AnimatedSection>
 
@@ -148,7 +148,7 @@ export default function MissionPage() {
                   />
                 </div>
                 <h3 className="mt-4 text-xl font-bold text-green-700">Cesar Bernal</h3>
-                {/* <p className="text-gray-600">Secratary</p> */}
+                <p className="text-gray-600">Secratary</p>
               </div>
             </AnimatedSection>
                         <AnimatedSection delay={0.3}>
@@ -163,7 +163,7 @@ export default function MissionPage() {
                   />
                 </div>
                 <h3 className="mt-4 text-xl font-bold text-green-700">Arturo Roman</h3>
-                {/* <p className="text-gray-600">Secratary</p> */}
+                <p className="text-gray-600">Secratary</p>
               </div>
             </AnimatedSection>
                         <AnimatedSection delay={0.3}>
@@ -178,12 +178,12 @@ export default function MissionPage() {
                   />
                 </div>
                 <h3 className="mt-4 text-xl font-bold text-green-700">Cody Neal</h3>
-                {/* <p className="text-gray-600">Treasuror</p> */}
+                <p className="text-gray-600">Treasuror</p>
               </div>
             </AnimatedSection>
           </div>
         </div>
-      </section>
+      </section> */}
       
 
       {/* Testimonials */}

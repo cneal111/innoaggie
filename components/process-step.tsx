@@ -92,15 +92,15 @@ export default function ProcessStep({
           transition={{ duration: 0.8, delay: 0.2 + index * 0.2 }}
         >
           <motion.div whileHover={{ scale: 1.03 }} className="h-full w-full">
-            <Image
-              src={imageSrc || "/placeholder.svg"}
+            {/* <Image
+              src={imageSrc || ""} //placeholder.svg?height=500&width=500
               alt={imageAlt}
               fill
               className="object-cover transition-transform duration-700"
               style={{
-                transform: isHovered ? "scale(1.05)" : "scale(1)",
+                // transform: isHovered ? "scale(1.05)" : "scale(1)",
               }}
-            />
+            /> */}
           </motion.div>
         </motion.div>
       </div>
