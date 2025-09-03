@@ -71,8 +71,9 @@ export default function StickyHeader() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             type="button"
+            onClick={() => { window.location.href = 'https://billing.stripe.com/p/login/test_fZuaEXfzh9lUgcN9nt1sQ00' }}
           >
-            Get Updates
+            Subscribers
           </motion.button>
         </nav>
 
