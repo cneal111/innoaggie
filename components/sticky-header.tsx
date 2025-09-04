@@ -131,8 +131,9 @@ export default function StickyHeader() {
         <motion.button
           className="bg-green-700 hover:bg-green-800 w-full text-white px-4 py-2 rounded"
           type="button"
+          onClick={() => { window.location.href = 'https://billing.stripe.com/p/login/test_fZuaEXfzh9lUgcN9nt1sQ00' }}
         >
-          Get Updates
+          Subscribers
         </motion.button>
           </motion.div>
         </motion.nav>
