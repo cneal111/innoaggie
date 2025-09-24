@@ -71,7 +71,7 @@ export default function StickyHeader() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             type="button"
-            onClick={() => { window.location.href = 'https://billing.stripe.com/p/login/test_fZuaEXfzh9lUgcN9nt1sQ00' }}
+            onClick={() => { window.location.href = 'https://billing.stripe.com/p/login/3cI14nfAo9Xf3ErfI4cQU00' }}
           >
             Subscribers
           </motion.button>
@@ -131,7 +131,7 @@ export default function StickyHeader() {
         <motion.button
           className="bg-green-700 hover:bg-green-800 w-full text-white px-4 py-2 rounded"
           type="button"
-          onClick={() => { window.location.href = 'https://billing.stripe.com/p/login/test_fZuaEXfzh9lUgcN9nt1sQ00' }}
+          onClick={() => { window.location.href = 'https://billing.stripe.com/p/login/3cI14nfAo9Xf3ErfI4cQU00' }}
         >
           Subscribers
         </motion.button>

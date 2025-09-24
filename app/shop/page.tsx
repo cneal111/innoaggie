@@ -69,7 +69,7 @@ export default async function ShopPage() {
                   <div className="mt-6 w-full">
                     {inStock ? (
                       <Button asChild className="bg-green-700 hover:bg-green-800  hover:text-green-100 w-full">
-                        <Link href="https://buy.stripe.com/test_cNiaEX3QzfKi3q10QX1sQ01">
+                        <Link href="https://buy.stripe.com/3cI14nfAo9Xf3ErfI4cQU00">
                           Buy Now <ArrowRight className="ml-2 h-4 w-4" />
                         </Link>
                       </Button>
@@ -93,7 +93,7 @@ export default async function ShopPage() {
                   <div className="mt-6 w-full">
                     {inStock ? (
                       <Button asChild className="bg-green-700 hover:bg-green-800 hover:text-green-100 w-full">
-                        <Link href="https://buy.stripe.com/test_fZuaEXfzh9lUgcN9nt1sQ00">
+                        <Link href="https://buy.stripe.com/eVq9AT4VK0mF4Iv9jGcQU01">
                           Subscribe <ArrowRight className="ml-2 h-4 w-4" />
                         </Link>
                       </Button>
