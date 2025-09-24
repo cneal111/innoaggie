@@ -67,7 +67,7 @@ export default function Home() {
               <div className="relative h-full w-full overflow-hidden rounded-lg md:h-full">
                 <img
                   // src="/placeholder.svg?height=800&width=800"
-                  src="/product_bottle.png?height=800&width=800"
+                  src="/product_bottle-3.png?height=800&width=800"
                   // alt="Our growing process"
                   className="h-full w-full object-cover"
                 />
