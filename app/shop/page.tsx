@@ -11,8 +11,8 @@ async function getInventory() {
   if (!STRAPI_URL || !STRAPI_TOKEN) return null;
 
   // Query the product by slug (mg-1). Adjust if your slug differs.
-  const url = new URL(`${STRAPI_URL}/api/products/${MYPRODUCT}`);
-  url.searchParams.set("filters[slug][$eq]", "myproduct");
+  const url = new URL(`${STRAPI_URL}/api/products/${MG1}`);
+  url.searchParams.set("filters[slug][$eq]", "mg-1");
   url.searchParams.append("fields[0]", "inventory");
   url.searchParams.append("fields[1]", "name");
   url.searchParams.append("pagination[pageSize]", "1");
