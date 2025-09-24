@@ -38,7 +38,7 @@ async function getInventory() {
 
 export default async function ShopPage() {
   const inventory = await getInventory();
-  const inStock = typeof inventory === "number" ? inventory > 0 : false;
+  const inStock = typeof inventory === "number" ? inventory > 1 : false;
 
   return (
     <div className="flex flex-col">
