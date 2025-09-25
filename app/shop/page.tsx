@@ -54,7 +54,7 @@ export default async function ShopPage() {
       <img
         src="/product_bottle-4.png?height=1200&width=1200"
         alt="MG-1 microgreens supplement bottle"
-        className="block w-full h-auto rounded-xl shadow-sm"
+        className="h-full w-full object-cover"
       />
     </div>
 
