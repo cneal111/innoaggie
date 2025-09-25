@@ -11,6 +11,7 @@ const routes = [
   { href: "/mission", label: "Mission" },
   { href: "/process", label: "Process" },
   { href: "/shop", label: "Shop" },
+  { href: "/research", label: "Research" },
 ]
 
 export default function Navbar() {
