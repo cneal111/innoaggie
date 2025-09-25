@@ -59,7 +59,7 @@ export default async function ShopPage() {
     </div>
 
     {/* Supplement Facts (dark-mode ready) */}
-    <Card className="w-full md:w-[26rem] mt-20 shadow-md bg-white dark:bg-neutral-900">
+    <Card className="w-full md:w-[26rem] mt-4 mb-4 md:mt-20 shadow-md bg-white dark:bg-neutral-900">
       <CardHeader className="pb-2">
         <CardTitle className="text-xl text-neutral-900 dark:text-neutral-100">
           Supplement Facts
