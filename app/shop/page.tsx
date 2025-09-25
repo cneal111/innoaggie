@@ -67,7 +67,7 @@ export default async function ShopPage() {
       </CardHeader>
 
       <CardContent className="p-0 md:p-6">
-        <div className="rounded-2xl border-2 border-emerald-800 bg-emerald-50/40 p-4 sm:p-5 dark:border-emerald-600 dark:bg-emerald-950/30">
+        <div className="rounded-2xl border-2 mx-2 my-2 border-emerald-800 bg-emerald-50/40 p-4 sm:p-5 dark:border-emerald-600 dark:bg-emerald-950/30">
           <div className="border-t-4 border-black pt-3 dark:border-white">
             {/* Mobile quick chips */}
             <div className="mb-3 flex flex-wrap gap-2 text-[13px] sm:text-sm">
@@ -109,7 +109,7 @@ export default async function ShopPage() {
                 </p>
               </details>
             </div>
-            <p className="mt-3 hidden text-xs leading-6 text-neutral-900 dark:text-neutral-200 sm:block">
+            <p className="mt-3 hidden text-[8px] leading-6 text-neutral-900 dark:text-neutral-200 sm:block">
               **These statements have not been evaluated by the Food and Drug Administration.
               This product is not intended to diagnose, treat, cure, or prevent any disease.
             </p>
