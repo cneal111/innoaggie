@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold text-green-700">Innovative Agriculture</h3>
             <p className="mt-2 text-sm text-gray-600">
-              Premium broccoli microgreen supplements for optimal health and wellness.
+              Premium dehydrated broccoli for optimal health and wellness.
             </p>
           </div>
 

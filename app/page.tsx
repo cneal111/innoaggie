@@ -13,13 +13,13 @@ export default function Home() {
       <ParallaxHero
         title="Small Greens."
         highlightedTitle="Bigger Impact."
-        description="Our premium broccoli microgreen supplements deliver concentrated nutrition for optimal health and wellness."
+        description="Our premium broccoli dehydrated vegetable product deliver concentrated nutrition for optimal health and wellness."
         primaryButtonText="Learn More"
         primaryButtonLink="/process"
         secondaryButtonText="View Products"
         secondaryButtonLink="/shop"
         // imageSrc="/placeholder.svg?height=1200&width=1200"
-        imageAlt="Broccoli microgreen supplement"
+        imageAlt="Broccoli microgreen dehydrated vegetable capsule bottle"
       />
 
       {/* Benefits Section */}
@@ -75,7 +75,7 @@ export default function Home() {
             </AnimatedSection>
 
             <AnimatedSection className="flex flex-col justify-center" direction="right">
-              <h2 className="text-3xl font-bold tracking-tight text-green-800 md:text-4xl">From Seed to Supplement</h2>
+              <h2 className="text-3xl font-bold tracking-tight text-green-800 md:text-4xl">From Seed to Capsule</h2>
               <p className="mt-4 text-gray-600">
                 We carefully nurture our broccoli microgreens in controlled environments to ensure maximum nutrient
                 density and purity.

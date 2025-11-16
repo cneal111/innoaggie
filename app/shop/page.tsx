@@ -53,16 +53,16 @@ export default async function ShopPage() {
     <div className="w-40 sm:w-48 md:w-[26rem] mx-auto md:mx-0">
       <img
         src="/product_bottle-4.png?height=1200&width=1200"
-        alt="MG-1 microgreens supplement bottle"
+        alt="MG-1 microgreens dehydrated vegetable capsule bottle"
         className="h-full w-full object-cover"
       />
     </div>
 
-    {/* Supplement Facts (dark-mode ready) */}
+    {/* Nutrition Facts (dark-mode ready) */}
     <Card className="w-full md:w-[26rem] mt-4 mb-4 md:mt-20 shadow-md bg-white dark:bg-neutral-900">
       <CardHeader className="pb-2">
         <CardTitle className="text-xl text-neutral-900 dark:text-neutral-100">
-          Supplement Facts
+          Nutrition Facts
         </CardTitle>
       </CardHeader>
 
@@ -127,7 +127,7 @@ export default async function ShopPage() {
           <AnimatedSection className="mx-auto max-w-3xl text-center">
             <h1 className="text-4xl font-bold tracking-tight text-green-800 md:text-5xl">Shop Broccoli Microgreens</h1>
             <p className="mt-4 text-lg text-gray-600">
-              Choose your purchase option below and enjoy the benefits of our premium broccoli microgreen supplements.
+              Choose your purchase option below and enjoy the benefits of our premium broccoli dehydrated vegetable product.
             </p>
           </AnimatedSection>
         </div>
@@ -143,7 +143,7 @@ export default async function ShopPage() {
                 <div className="rounded-lg border border-green-100 bg-green-50 p-8 text-center flex flex-col items-center">
                   <h2 className="text-2xl font-bold text-green-800">One-Time Purchase</h2>
                   <p className="mt-2 text-gray-600">
-                    Buy a single bottle of Broccoli Microgreen Supplements. No commitment.
+                    Buy a single bottle of Broccoli Dehydrated Vegetables. No commitment.
                   </p>
                   <div className="mt-6 w-full">
                     {inStock ? (

@@ -39,7 +39,7 @@ export default function MissionPage() {
               </p>
               <p className="mt-4 text-gray-600">
                 We've dedicated ourselves to perfecting the growing, harvesting, and processing of these remarkable
-                plants to create supplements that deliver their full potential in a convenient form.
+                plants to create dehydrated vegetable products that deliver their full potential in a convenient form.
               </p>
               <div className="mt-8">
                 <Button asChild className="bg-green-700 hover:bg-green-800">

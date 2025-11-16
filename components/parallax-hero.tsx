@@ -156,7 +156,7 @@ export default function ParallaxHero({
               <Image
                 // src="/placeholder.svg?height=800&width=800"
                 src="/inno_logo.png"
-                alt="Broccoli microgreen supplement"
+                alt="Innovative Agriculture Logo"
                 fill
                 className="object-cover"
                 priority

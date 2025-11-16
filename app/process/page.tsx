@@ -13,7 +13,7 @@ export default function ProcessPage() {
           <AnimatedSection className="mx-auto max-w-3xl text-center">
             <h1 className="text-4xl font-bold tracking-tight text-green-800 md:text-5xl">Our Process</h1>
             <p className="mt-4 text-lg text-gray-600">
-              From seed to supplement, we maintain the highest standards at every step.
+              From seed to capsule, we maintain the highest standards at every step.
             </p>
           </AnimatedSection>
         </div>
@@ -117,7 +117,7 @@ export default function ProcessPage() {
               Ready to Experience the Difference?
             </h2>
             <p className="mt-4 text-gray-600">
-              Our broccoli microgreen supplements are available now!
+              Our broccoli dehydrated vegetable product is available now!
             </p>
             <div className="mt-8">
               <Button asChild size="lg" className="bg-green-700 hover:bg-green-800">
