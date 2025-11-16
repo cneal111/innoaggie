@@ -13,7 +13,7 @@ export default function Home() {
       <ParallaxHero
         title="Small Greens."
         highlightedTitle="Bigger Impact."
-        description="Our premium broccoli dehydrated vegetable product deliver concentrated nutrition for optimal health and wellness."
+        description="Our premium broccoli dehydrated vegetable product delivers concentrated nutrition for optimal health and wellness."
         primaryButtonText="Learn More"
         primaryButtonLink="/process"
         secondaryButtonText="View Products"
@@ -77,7 +77,7 @@ export default function Home() {
             <AnimatedSection className="flex flex-col justify-center" direction="right">
               <h2 className="text-3xl font-bold tracking-tight text-green-800 md:text-4xl">From Seed to Capsule</h2>
               <p className="mt-4 text-gray-600">
-                We carefully nurture our broccoli microgreens in controlled environments to ensure maximum nutrient
+                We carefully nurture our vegetables in controlled environments to ensure maximum nutrient
                 density and purity.
               </p>
               <ul className="mt-6 space-y-2">
