@@ -143,7 +143,7 @@ export default async function ShopPage() {
                 <div className="rounded-lg border border-green-100 bg-green-50 p-8 text-center flex flex-col items-center">
                   <h2 className="text-2xl font-bold text-green-800">One-Time Purchase</h2>
                   <p className="mt-2 text-gray-600">
-                    Buy a single bottle of Broccoli Dehydrated Vegetables. No commitment.
+                    Buy a single bottle of Broccoli Dehydrated Capsules. No commitment.
                   </p>
                   <div className="mt-6 w-full">
                     {inStock ? (
