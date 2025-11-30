@@ -52,7 +52,7 @@ export default async function ShopPage() {
     {/* Bottle */}
     <div className="w-40 sm:w-48 md:w-[26rem] mx-auto md:mx-0">
       <img
-        src="/product_bottle-4.png?height=1200&width=1200"
+        src="/product_bottle-5.png?height=1200&width=1200"
         alt="MG-1 microgreens dehydrated vegetable capsule bottle"
         className="h-full w-full object-cover"
       />
