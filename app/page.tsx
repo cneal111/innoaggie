@@ -114,7 +114,7 @@ export default function Home() {
           <AnimatedSection className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-green-800 md:text-4xl">Stay Updated</h2>
             <p className="mt-4 text-gray-600">
-              Join our newsletter to receive updates on product launches, health tips, and exclusive offers.
+              Join our newsletter to receive updates on product launches, health tips, and other exclusives.
             </p>
             <div className="mt-8">
               <NewsletterSignup />

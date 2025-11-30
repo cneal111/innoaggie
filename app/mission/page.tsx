@@ -200,6 +200,16 @@ export default function MissionPage() {
                   <p className="text-gray-600 italic">
                     Let us hear from you! We value your feedback and insights on our products and mission. Your thoughts help us improve and innovate.
                   </p>
+                  <footer className="mt-4">
+                    <Button asChild className="bg-green-700 hover:bg-green-800">
+                      <a
+                        href="mailto:innoaggie@gmail.com?subject=Feedback/Review%20for%20Innovative%20Agriculture"
+                        className="inline-flex items-center"
+                      >
+                        Send us an email <ArrowRight className="ml-2 h-4 w-4" />
+                      </a>
+                    </Button>
+                  </footer>
                   {/* <footer className="mt-4">
                     <p className="font-bold text-green-700">Dr. Emily Richards</p>
                     <p className="text-sm text-gray-500">Professor of Nutritional Sciences</p>

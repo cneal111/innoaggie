@@ -57,7 +57,7 @@ export default function NewsletterSignup() {
               className="h-4 w-4 border-2 border-white border-t-transparent rounded-full"
             />
           ) : (
-            "Subscribe"
+            "Join Newsletter"
           )}
         </Button>
       </motion.div>
