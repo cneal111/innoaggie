@@ -32,7 +32,7 @@ export default async function ResearchPage() {
                 <CheckCircle className="h-12 w-12 text-green-700" />
                 <h3 className="mt-4 text-xl font-bold text-green-700">Oxidative Stress & Inflammation</h3>
                 <p className="mt-2 text-gray-600">
-                  Human trials show broccoli sprouts reduce oxidative stress, inflammation, and kidney stress markers.  
+                  Human trials show broccoli sprouts may reduce oxidative stress, inflammation, and kidney stress markers.
                   This highlights their role in protecting cardiovascular and cellular health.
                 </p>
                 <span className="mt-2 text-green-600 underline text-sm">View Article</span>
@@ -49,7 +49,7 @@ export default async function ResearchPage() {
                 <CheckCircle className="h-12 w-12 text-green-700" />
                 <h3 className="mt-4 text-xl font-bold text-green-700">Thyroid Health & Safety</h3>
                 <p className="mt-2 text-gray-600">
-                  Research shows broccoli sprouts slow thyroid cancer cell growth and ease inflammation.  
+                  Research shows broccoli sprouts may slow thyroid cancer cell growth and ease inflammation.
                   They also demonstrate a strong safety profile, supporting natural thyroid wellness.
                 </p>
                 <span className="mt-2 text-green-600 underline text-sm">View Article</span>
@@ -66,7 +66,7 @@ export default async function ResearchPage() {
                 <CheckCircle className="h-12 w-12 text-green-700" />
                 <h3 className="mt-4 text-xl font-bold text-green-700">Digestive Health & Gut Support</h3>
                 <p className="mt-2 text-gray-600">
-                  Daily broccoli sprouts improved digestive regularity and eased constipation in clinical trials.  
+                  Daily broccoli sprouts improved digestive regularity and eased constipation in clinical trials.
                   They also boosted antioxidant defenses and supported a healthier gut microbiome.
                 </p>
                 <span className="mt-2 text-green-600 underline text-sm">View Article</span>
@@ -83,7 +83,7 @@ export default async function ResearchPage() {
                 <CheckCircle className="h-12 w-12 text-green-700" />
                 <h3 className="mt-4 text-xl font-bold text-green-700">Sprouts as Functional Foods</h3>
                 <p className="mt-2 text-gray-600">
-                  Reviews highlight sprouts like broccoli as nutrient-dense superfoods packed with phytochemicals.  
+                  Reviews highlight sprouts like broccoli as nutrient-dense superfoods packed with phytochemicals.
                   These compounds provide antioxidant, anti-inflammatory, and functional nutrition benefits.
                 </p>
                 <span className="mt-2 text-green-600 underline text-sm">View Article</span>
@@ -100,8 +100,8 @@ export default async function ResearchPage() {
                 <CheckCircle className="h-12 w-12 text-green-700" />
                 <h3 className="mt-4 text-xl font-bold text-green-700">Prostate Health Potential</h3>
                 <p className="mt-2 text-gray-600">
-                  Selenium-enriched broccoli sprouts showed stronger anti-cancer effects in prostate cell studies.  
-                  They reduced tumor growth pathways and promoted cancer cell death.
+                  Selenium-enriched broccoli sprouts showed stronger anti-cancer effects in prostate cell studies.
+                  They showed potential to reduce tumor growth pathways and promote cancer cell death.
                 </p>
                 <span className="mt-2 text-green-600 underline text-sm">View Article</span>
               </Link>
@@ -117,7 +117,7 @@ export default async function ResearchPage() {
                 <CheckCircle className="h-12 w-12 text-green-700" />
                 <h3 className="mt-4 text-xl font-bold text-green-700">Broad-Spectrum Benefits</h3>
                 <p className="mt-2 text-gray-600">
-                  Updated reviews describe broccoli sprouts as rich in antioxidants, vitamins, and bioactive compounds.  
+                  Updated reviews describe broccoli sprouts as rich in antioxidants, vitamins, and bioactive compounds.
                   They support anti-inflammatory, antidiabetic, antimicrobial, and even anti-cancer functions.
                 </p>
                 <span className="mt-2 text-green-600 underline text-sm">View Article</span>
